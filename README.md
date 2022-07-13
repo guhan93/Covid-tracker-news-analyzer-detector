@@ -1,0 +1,2 @@
+# Covid-tracker-news-analyzer-detector
+Description: A complete cloud-deployed web app that contains: A  COVID tracking dashboard built using Plotly and dash A COVID fake new classifier using natural language processing A COVID detector using parallel convolutional neural networks Language/ Libraries: Python for implementing ML models, Flask for local deployment, and Amazon web services for cloud deployment
