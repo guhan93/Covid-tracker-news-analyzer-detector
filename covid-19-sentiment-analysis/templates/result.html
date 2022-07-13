@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Your Prediction</title>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<body>
+    <h2>Your news:</h2>
+    <p>{{news}}</p>
+    <ul>
+        <li> Count Vectorizer and Logistic Regression CV model predicts your news is: {{cvl_prediction}}.</li>
+        <li> Count Vectorizer and Multinomial Naive Bayes model predicts your news is: {{cvmnb_prediction}}.</li>
+        <li> Count Vectorizer and Random Forest model predicts your news is: {{cvrf_prediction}}.</li>
+        <li> TF-IDF Vectorizer and Logistic Regression CV model predicts your news is: {{tfl_prediction}}.</li>
+        <li> TF-IDF Vectorizer and Multinomial Naive Bayes model predicts your news is: {{tfmnb_prediction}}.</li>
+        <li> TF-IDF Vectorizer and Random Forest model predicts your news is: {{tfrf_prediction}}.</li>
+    </ul>
+    <h1>{{conclusion}}</h1>
+    <div class="container">
+        <a href="/form"><center>
+            <button class="btn btn-primary">Go back</button></a>
+            <a href="http://ec2-52-66-123-195.ap-south-1.compute.amazonaws.com:8080/" target="_parent"><button class="btn btn-primary" >Next</button></a>
+        </center>
+    </div>
+</body>
+</html>

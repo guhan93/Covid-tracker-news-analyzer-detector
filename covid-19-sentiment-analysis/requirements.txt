@@ -1,0 +1,8 @@
+numpy 
+pandas 
+seaborn 
+matplotlib.pyplot 
+time 
+bs4 
+nltk
+sklearn
